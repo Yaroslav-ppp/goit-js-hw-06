@@ -1,2 +1,2 @@
-const categoriesEl = document.querySelector('.item');
+const categoriesEl = document.querySelectorAll('li.item');
 console.log('Number of categories:', categoriesEl.length);
